@@ -81,3 +81,55 @@ h2.text-center.mb-5 {
     margin: 20px 68px;
 }
 
+.so-thu-tu {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    font-size: 30px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: auto;
+    /* z-index: 999; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.left {
+    position: relative;
+}
+
+.nut-dieu-huong {
+    position: absolute;
+    top: 225px;
+    text-align: center;
+    padding: 0 60px;
+}
+
+.nut-dap-an {
+    position: absolute;
+    top: 318px;
+    left: 158px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alert.alert-info.cau-hoi {
+    margin: 20px 0;
+}
+
+.right {
+  position: relative;
+}
+
+.noi-dung-dap-an {
+    position: absolute;
+    width: 825px;
+    top: 310px;
+}
+
+.nut-dap-an i {
+  margin-bottom: 28px;
+}
