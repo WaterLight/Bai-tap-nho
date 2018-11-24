@@ -81,6 +81,10 @@ h2.text-center.mb-5 {
     margin: 20px 68px;
 }
 
+.overlay.show {
+  opacity: 1;
+}
+
 .so-thu-tu {
     background-color: #d1ecf1;
     color: #0c5460;
@@ -132,4 +136,9 @@ h2.text-center.mb-5 {
 
 .nut-dap-an i {
   margin-bottom: 28px;
+}
+
+.dap-an-dung{
+  background: #fff !important;
+  color: #000 !important;
 }
