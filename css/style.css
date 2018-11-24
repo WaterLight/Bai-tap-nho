@@ -1,0 +1,26 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+
+.hinh {
+  background: #90bf1c;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+  z-index: 9999;
+  color: #545454;
+  border-radius: 50%;
+}
+
+
+
+.hinh:hover {
+    background: #CBFF4D;
+    color: #545454;
+    transform: scale(1.1);
+}
