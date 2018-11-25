@@ -1,6 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	var arrDapAn = ['d','b','b','b','c','b','c','b','d'];
+	var dapAnA = document.querySelector('.a');
+	var dapAnB = document.querySelector('.b');
+	var dapAnC = document.querySelector('.c');
+	var dapAnD = document.querySelector('.d');
+
+	var arrDapAn = ['a','b','b','b','c','b','c','b','d'];
 
 	var soThuTu = document.querySelector('.so-thu-tu');
 		soThuTu = soThuTu.innerHTML;
